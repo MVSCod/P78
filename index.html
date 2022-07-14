@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>P78</title>
+</head>
+<body>
+    <h1>Use o console
+    </h1>
+    
+        <p>
+            Como declarar os arrays?
+            <h4 id="declaration_Of_Arrays"> 
+                </h4>
+            </p>
+            <script>
+            var fruits  = ["Tangerina", "Maçã", "Limão"];
+            console.log(fruits);
+            document.getElementsById ("declaration_Of_Arrays");
+    </script>
+    <hr>
+           <p>
+            Como buscar o primeiro id da array?
+            <h4 id="acesses_first_element"> 
+                </h4>
+            </p>
+            <script>
+            var fruits  = ["Tangerina", "Maçã", "Limão"];
+            var first_fruits = fruits [0];
+            console.log(first_fruits);
+            document.getElementsById ("acesses_first_element");
+    </script>
+
+
+<hr>
+       <p>
+        Como obter o primeiro comprimento da array?
+        <h4 id="Display_lenght_of_array"> 
+            </h4>
+        </p>
+        <script>
+        var fruits  = ["Tangerina", "Maçã", "Limão"];
+        var lenght_of_the_array = fruits.length;
+        console.log(lenght_of_the_array);
+        document.getElementsById ("Display_lenght_of_array");
+</script>
+<hr>
+<script>
+    
+    
+    var fruits  = ["Tangerina", "Maçã", "Limão"]; 
+
+    var array_value ="";
+    for (i=0; i <fruits.length; i++);
+{
+
+console.log(fruits [i]);
+    array_value = array_value + fruits[i] + "<br>";
+}
+
+document.getElementsById ("Loop_the_array").innerHTML = array_value;
+    </script>
+</body>
+</html>
